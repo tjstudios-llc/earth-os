@@ -1,0 +1,76 @@
+MIT License
+
+Copyright (c) 2024-2025 EarthOS Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+═══════════════════════════════════════════════════════════════════════════
+
+THIRD-PARTY LICENSES
+
+This project includes or uses the following open-source libraries:
+
+1. Express.js (MIT)
+   - Used for HTTP server in all backend services
+   - https://expressjs.com/
+
+2. GSAP (Standard License for Free Version)
+   - Used for animations in UI
+   - https://greensock.com/gsap/
+
+3. TypeScript (Apache 2.0)
+   - Used for type-safe development
+   - https://www.typescriptlang.org/
+
+4. Next.js (MIT)
+   - Used for web interface
+   - https://nextjs.org/
+
+5. React (MIT)
+   - Used as UI framework
+   - https://react.dev/
+
+6. Commander.js (MIT)
+   - Used for CLI parsing
+   - https://github.com/tj/commander.js
+
+7. Chalk (MIT)
+   - Used for CLI colors
+   - https://github.com/chalk/chalk
+
+8. UUID (MIT)
+   - Used for unique ID generation
+   - https://github.com/uuidjs/uuid
+
+9. Axios (MIT)
+   - Used for HTTP requests
+   - https://axios-http.com/
+
+10. Crypto (Node.js Built-in)
+    - Used for encryption and hashing
+    - https://nodejs.org/
+
+═══════════════════════════════════════════════════════════════════════════
+
+CONTRIBUTING
+
+By contributing to this project, you agree that your contributions will be
+licensed under its MIT License.
+
+═══════════════════════════════════════════════════════════════════════════

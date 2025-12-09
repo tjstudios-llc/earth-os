@@ -1,0 +1,102 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build directories
+dist/
+build/
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+lerna-debug.log*
+
+# System logs
+system/
+daemon/system/
+shell/logs/
+simulator/devices/
+appstore/apps/
+updater/updates/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+.cache/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE files
+.vscode/settings.json
+.idea/workspace.xml
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Compiled TypeScript
+*.js.map
+*.d.ts
+
+# Mac
+.AppleDouble
+.LSOverride
+
+# Windows
+*.exe
+*.dll
+*.lnk
+
+# Production database
+*.sqlite
+*.db
+
+# Backup files
+*.backup
+*.bak
+*.swp
+
+# Editor temp files
+*~
+.#*
+
+# Generated files
+.auth.json
+.session
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# CI/CD
+.github/workflows/*.local.yml
+.gitlab-ci.local.yml
+
+# Secrets (if accidentally committed)
+.secrets/
+secrets.json
+private.key
