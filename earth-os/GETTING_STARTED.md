@@ -4,14 +4,14 @@ Welcome to EarthOS! This guide will walk you through setting up and using the sy
 
 ## Prerequisites
 
-- **Node.js 18+** - [Download](https://nodejs.org/)
+- **Node.js 22+** - [Download](https://nodejs.org/)
 - **npm** or **yarn** - Usually comes with Node.js
 - **Git** - For version control
 - **A terminal/command line**
 
 Check your versions:
 ```bash
-node --version  # Should be v18.0.0 or higher
+node --version  # Should be v22.0.0 or higher
 npm --version   # Should be 8.0.0 or higher
 ```
 
@@ -22,7 +22,7 @@ npm --version   # Should be 8.0.0 or higher
 Navigate to the EarthOS directory and install all service dependencies:
 
 ```bash
-cd /home/earth-admin/earth-os
+cd /path/to/earth-os
 chmod +x scripts/install-all.sh
 ./scripts/install-all.sh
 ```
@@ -52,38 +52,38 @@ done
 
 ### Option A: Start Each Service Manually
 
-Open 7 terminal windows and run:
+Open 6 terminal windows and run:
 
 ```bash
 # Terminal 1: Daemon (Port 3002)
-cd /home/earth-admin/earth-os/daemon
+cd /path/to/earth-os/daemon
 npm run dev
 
 # Terminal 2: Shell (Port 3003)
-cd /home/earth-admin/earth-os/shell
+cd /path/to/earth-os/shell
 npm run dev
 
 # Terminal 3: App Store (Port 3004)
-cd /home/earth-admin/earth-os/appstore
+cd /path/to/earth-os/appstore
 npm run dev
 
 # Terminal 4: Updater (Port 3005)
-cd /home/earth-admin/earth-os/updater
+cd /path/to/earth-os/updater
 npm run dev
 
 # Terminal 5: Simulator (Port 3006)
-cd /home/earth-admin/earth-os/simulator
+cd /path/to/earth-os/simulator
 npm run dev
 
 # Terminal 6: Cloud Server (Port 8080)
-cd /home/earth-admin/earth-os/earthling-server
+cd /path/to/earth-os/earthling-server
 npm run dev
 ```
 
 ### Option B: Start All Services at Once
 
 ```bash
-cd /home/earth-admin/earth-os
+cd /path/to/earth-os
 chmod +x scripts/start-all.sh
 ./scripts/start-all.sh
 
@@ -91,12 +91,14 @@ chmod +x scripts/start-all.sh
 ./scripts/stop-all.sh
 ```
 
-### Step 3: Access the System
+### Step 3: Access the Available Services
 
-Once all services are running, visit:
+Once the services are running, the simulator dashboard and cloud API are available at:
 
 - **Simulator Dashboard:** http://localhost:3006/dashboard
-- **Cloud Dashboard:** http://localhost:8080/dashboard
+- **Cloud Dashboard/API:** http://localhost:8080/dashboard
+
+There is no separate Next.js UI application in the current repository checkout.
 
 ## Using EarthOS CLI
 
