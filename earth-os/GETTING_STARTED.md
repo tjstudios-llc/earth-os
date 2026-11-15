@@ -22,7 +22,7 @@ npm --version   # Should be 8.0.0 or higher
 Navigate to the EarthOS directory and install all service dependencies:
 
 ```bash
-cd /home/earth-admin/earth-os
+cd /path/to/earth-os
 chmod +x scripts/install-all.sh
 ./scripts/install-all.sh
 ```
@@ -56,34 +56,34 @@ Open 6 terminal windows and run:
 
 ```bash
 # Terminal 1: Daemon (Port 3002)
-cd /home/earth-admin/earth-os/daemon
+cd /path/to/earth-os/daemon
 npm run dev
 
 # Terminal 2: Shell (Port 3003)
-cd /home/earth-admin/earth-os/shell
+cd /path/to/earth-os/shell
 npm run dev
 
 # Terminal 3: App Store (Port 3004)
-cd /home/earth-admin/earth-os/appstore
+cd /path/to/earth-os/appstore
 npm run dev
 
 # Terminal 4: Updater (Port 3005)
-cd /home/earth-admin/earth-os/updater
+cd /path/to/earth-os/updater
 npm run dev
 
 # Terminal 5: Simulator (Port 3006)
-cd /home/earth-admin/earth-os/simulator
+cd /path/to/earth-os/simulator
 npm run dev
 
 # Terminal 6: Cloud Server (Port 8080)
-cd /home/earth-admin/earth-os/earthling-server
+cd /path/to/earth-os/earthling-server
 npm run dev
 ```
 
 ### Option B: Start All Services at Once
 
 ```bash
-cd /home/earth-admin/earth-os
+cd /path/to/earth-os
 chmod +x scripts/start-all.sh
 ./scripts/start-all.sh
 
