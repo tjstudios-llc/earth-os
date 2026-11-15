@@ -4,14 +4,14 @@ Welcome to EarthOS! This guide will walk you through setting up and using the sy
 
 ## Prerequisites
 
-- **Node.js 18+** - [Download](https://nodejs.org/)
+- **Node.js 22+** - [Download](https://nodejs.org/)
 - **npm** or **yarn** - Usually comes with Node.js
 - **Git** - For version control
 - **A terminal/command line**
 
 Check your versions:
 ```bash
-node --version  # Should be v18.0.0 or higher
+node --version  # Should be v22.0.0 or higher
 npm --version   # Should be 8.0.0 or higher
 ```
 
@@ -52,7 +52,7 @@ done
 
 ### Option A: Start Each Service Manually
 
-Open 7 terminal windows and run:
+Open 6 terminal windows and run:
 
 ```bash
 # Terminal 1: Daemon (Port 3002)
@@ -91,12 +91,14 @@ chmod +x scripts/start-all.sh
 ./scripts/stop-all.sh
 ```
 
-### Step 3: Access the System
+### Step 3: Access the Available Services
 
-Once all services are running, visit:
+Once the services are running, the simulator dashboard and cloud API are available at:
 
 - **Simulator Dashboard:** http://localhost:3006/dashboard
-- **Cloud Dashboard:** http://localhost:8080/dashboard
+- **Cloud Dashboard/API:** http://localhost:8080/dashboard
+
+There is no separate Next.js UI application in the current repository checkout.
 
 ## Using EarthOS CLI
 
